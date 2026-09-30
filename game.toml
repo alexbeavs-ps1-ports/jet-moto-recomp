@@ -5,6 +5,8 @@ id = "SCUS-94309"
 players = 1
 exe = "disc/SCUS_943.09"
 disc = "disc/Jet Moto (USA).cue"
+discs = ["disc/Jet Moto (USA).cue"]
+disc_serials = ["SCUS-94309"]
 load_address = "0x800DD2D0"
 entry_pc = "0x800EC310"
 text_size = "0x000EF000"
@@ -12,17 +14,20 @@ stack_base = "0x801FFFF0"
 
 [prepare_disc]
 out_dir = "disc"
-bin_name = "Jet Moto (USA).bin"
+bin_name = "Jet Moto (USA) (Track 01).bin"
 cue_name = "Jet Moto (USA).cue"
 boot_exe = "SCUS_943.09"
-known_sizes = [438916128]
+known_sizes = [80405472, 438916128]
 known_md5 = [
+  "a8c6041f61d64eab2baf669305ce3ea5",
   "cf919b77e5e61cb2c55d072cb5310d3b",
 ]
 known_sha1 = [
+  "f4e9e132dbbc44a628d637efc8f40099db294332",
   "beb0b1ad5e2961f25827f77709edd86141116d4c",
 ]
 known_crc32 = [
+  "bda32b8d",
   "535abdba",
 ]
 

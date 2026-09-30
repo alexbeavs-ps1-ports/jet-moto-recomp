@@ -1,0 +1,55 @@
+
+[game]
+name = "Jet Moto"
+id = "SCUS-94309"
+players = 1
+exe = "disc/SCUS_943.09"
+disc = "disc/Jet Moto (USA).cue"
+load_address = "0x800DD2D0"
+entry_pc = "0x800EC310"
+text_size = "0x000EF000"
+stack_base = "0x801FFFF0"
+
+[prepare_disc]
+out_dir = "disc"
+bin_name = "Jet Moto (USA).bin"
+cue_name = "Jet Moto (USA).cue"
+boot_exe = "SCUS_943.09"
+known_sizes = [438916128]
+known_md5 = [
+  "cf919b77e5e61cb2c55d072cb5310d3b",
+]
+known_sha1 = [
+  "beb0b1ad5e2961f25827f77709edd86141116d4c",
+]
+known_crc32 = [
+  "535abdba",
+]
+
+[recompiler]
+bios_config = "psxrecomp/bios/SCPH1001.toml"
+seeds = "seeds/ghidra_funcs.txt"
+out_dir = "generated"
+strict = true
+
+[runtime]
+openbios = false
+bios_hle = false
+window_title = "Jet Moto Recompiled"
+memcard_dir = "saves"
+overlay_cache = true
+
+[video]
+renderer = "opengl"
+aspect_ratio = "4:3"
+
+[controller]
+default_mode = "digital"
+
+[netplay]
+require_cue = true
+required_tracks = 14
+required_disc_fp = "6f98f50562d5a85e4286bf23c88245da3333e3bc09ca3fb9e76c3931b95cb084"
+
+[pgo]
+enabled = false

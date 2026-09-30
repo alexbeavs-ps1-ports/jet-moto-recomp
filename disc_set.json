@@ -1,0 +1,18 @@
+{
+  "disc_count": 1,
+  "verdict": "single",
+  "differing_program_fields": [],
+  "warnings": [],
+  "discs": [
+    {
+      "index": 1,
+      "cue_name": "Jet Moto (USA).cue",
+      "cue_path": "disc/Jet Moto (USA).cue",
+      "serial": "SCUS-94309",
+      "boot_exe": "SCUS_943.09",
+      "entry_pc": "0x800EC310",
+      "track_count": 14,
+      "required_disc_fp": "6f98f50562d5a85e4286bf23c88245da3333e3bc09ca3fb9e76c3931b95cb084"
+    }
+  ]
+}

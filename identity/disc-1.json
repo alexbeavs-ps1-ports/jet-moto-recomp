@@ -1,0 +1,29 @@
+{
+  "cue_path": "disc/Jet Moto (USA).cue",
+  "cue_name": "Jet Moto (USA).cue",
+  "bin_name": "Jet Moto (USA).bin",
+  "track_count": 14,
+  "data_track_size": 438916128,
+  "data_track_md5": "cf919b77e5e61cb2c55d072cb5310d3b",
+  "data_track_sha1": "beb0b1ad5e2961f25827f77709edd86141116d4c",
+  "data_track_crc32": "535abdba",
+  "boot_exe": "SCUS_943.09",
+  "serial": "SCUS-94309",
+  "serial_exe": "SCUS_943.09",
+  "volume_id": "",
+  "display_name": "Jet Moto",
+  "load_address": "0x800DD2D0",
+  "entry_pc": "0x800EC310",
+  "text_size": "0x000EF000",
+  "stack_base": "0x801FFFF0",
+  "require_cue": true,
+  "required_disc_fp": "6f98f50562d5a85e4286bf23c88245da3333e3bc09ca3fb9e76c3931b95cb084",
+  "boot_exe_sha256": "f1ad5aa4a092c9fc2a7f2d6795951a60a4419d02a0a3d0ea2a200fabc7a0ce48",
+  "seed_count": 1411,
+  "warnings": [],
+  "notes": [
+    "entry_pc/load_address/text_size/stack_base taken from PS-X EXE header.",
+    "seeds are first-pass boot-EXE JAL targets (+ entry); expect to grow as overlays / runtime paths are discovered.",
+    "required_disc_fp is psxrecomp-toc-v1 (matches runtime DiscIdentity)."
+  ]
+}

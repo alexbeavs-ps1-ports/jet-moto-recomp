@@ -2,7 +2,7 @@
 [game]
 name = "Jet Moto"
 id = "SCUS-94309"
-players = 1
+players = 2
 exe = "disc/SCUS_943.09"
 disc = "disc/Jet Moto (USA).cue"
 discs = ["disc/Jet Moto (USA).cue"]

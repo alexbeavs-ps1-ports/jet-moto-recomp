@@ -1,0 +1,46 @@
+{
+  "format_version": 1,
+  "game": {
+    "name": "Jet Moto",
+    "id": "SCUS-94309",
+    "boot_exe": "SCUS_943.09"
+  },
+  "marketing": {
+    "description": "",
+    "publisher": "",
+    "year": "",
+    "region": "USA",
+    "players": 2
+  },
+  "rom_identity": {
+    "cue_name": "Jet Moto (USA).cue",
+    "bin_name": "Jet Moto (USA).bin",
+    "track_counts": [
+      14
+    ],
+    "require_cue": true,
+    "data_track": {
+      "size": 438916128,
+      "md5": "cf919b77e5e61cb2c55d072cb5310d3b",
+      "sha1": "beb0b1ad5e2961f25827f77709edd86141116d4c",
+      "crc32": "535abdba"
+    },
+    "disc_fp": "6f98f50562d5a85e4286bf23c88245da3333e3bc09ca3fb9e76c3931b95cb084"
+  },
+  "exe": {
+    "load_address": "0x800DD2D0",
+    "entry_pc": "0x800EC310",
+    "text_size": "0x000EF000",
+    "stack_base": "0x801FFFF0"
+  },
+  "seeds": {
+    "count": 1411,
+    "source": "boot_exe_jal"
+  },
+  "warnings": [],
+  "notes": [
+    "entry_pc/load_address/text_size/stack_base taken from PS-X EXE header.",
+    "seeds are first-pass boot-EXE JAL targets (+ entry); expect to grow as overlays / runtime paths are discovered.",
+    "required_disc_fp is psxrecomp-toc-v1 (matches runtime DiscIdentity)."
+  ]
+}
